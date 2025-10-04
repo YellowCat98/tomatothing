@@ -35,7 +35,8 @@ class $modify(PlayerObject) {
 			CREATE_TOMATO_ANIM(auto anim, 2.5f, [](tomato::Animation* self) {
 				log::info("toilet");
 				self->unschedule(schedule_selector(tomato::Animation::beginAnimation));
-				
+				auto pauselayer = static_cast<PauseLayer*>(CCScene::get()->getChildByID("PauseLayer"));
+				pauselayer->onResume(nullptr);
 			});
 			auto worldPos = this->getParent()->convertToWorldSpace(this->getPosition());
 
