@@ -1,0 +1,27 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yellowcat98.tomatothing",
+	"name": "tomato thing",
+	"version": "v1.0.0",
+	"developer": "YellowCat98",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"tags": [
+		"modtober25"
+	],
+	"resources": {
+		"spritesheets": {
+			"tomatoframes": [
+				"resources/tomatoframes/*.png"
+			]
+		}
+	}
+}
